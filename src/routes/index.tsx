@@ -600,7 +600,9 @@ function Home() {
         <div className="shell hero-content">
           <p className="eyebrow hero-eyebrow">351 Water Street · St. John's</p>
           <h1>
-            Your cozy corner
+            Artisanal Coffee
+            <br />
+            <em className="hero-accent-text">&amp; Warm Moments</em>
             <br />
             on Water Street.
           </h1>
