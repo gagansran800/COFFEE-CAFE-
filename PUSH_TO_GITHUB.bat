@@ -1,18 +1,18 @@
 @echo off
-title Push Boreal Cafe to GitHub
+title Push Coffee Cafe to GitHub
 cd /d "%~dp0"
 set "PATH=%LOCALAPPDATA%\Programs\MinGit\cmd;%PATH%"
 
 echo ======================================================================
-echo           BOREAL CAFE - GITHUB UPLOAD HELPER
+echo           COFFEE CAFE - GITHUB UPLOAD HELPER
 echo ======================================================================
-echo Target Repository: https://github.com/gagansran800/boreal-cafe-
+echo Target Repository: https://github.com/gagansran800/COFFEE-CAFE-
 echo Branch: main
 echo.
 echo Pushing all 82 project files (source code, admin panel, styles, routes)...
 echo.
 
-git push origin main
+git push coffee main
 
 echo.
 echo ======================================================================
